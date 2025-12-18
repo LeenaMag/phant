@@ -92,9 +92,10 @@ email.addEventListener('blur', () => {
 document.querySelector(".button").
                 onclick = function () {
                     if(password.value = password2.value){
-
+                        
                     }
                 }
+
 
 
 
