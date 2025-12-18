@@ -25,7 +25,7 @@ const login = document.createElement('button');
 login.type = 'login';
 login.id = 'login';
 login.className = 'loginButton';
-login.textContent = "login";
+login.textContent = "Login";
 login.type = "button";
 
 const text = document.createElement('div');
@@ -63,5 +63,6 @@ nickname.value = localStorage.getItem('nick') ?? '';
 nickname.addEventListener('blur', () => {
   localStorage.setItem('nick', nickname.value);
 });
+
 
 
